@@ -1,15 +1,4 @@
-h1 {
-    color: green;
-}
-
-header {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://images.unsplash.com/photo-1505852679233-d9fd70aff56d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    background-attachment: fixed;
-}
-
+/* BASIC SET UP  */
 * {
     margin: 0;
     padding: 0;
@@ -19,23 +8,73 @@ header {
 html,
 body {
     background-color: #ffffff;
-    color: #555555;
-    font-family: 'Varela Round', sans-serif;
-    font-weight: 300;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
     font-size: 20px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
 }
 
+/* HEADER */
+
+header {
+    background-image:linear-gradient(rgba(0,0,0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1549271568-e87e07c5406b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.appointment-text-box h1 {
+    font-size: 45px;
+}
+
+.appointment-text-box {
+    position: relative;
+    text-align: center;
+    margin:13%;
+}
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: 300;
+    text-decoration: none;
+    background-color: grey;
+    border-radius: 1200px;
+    color: white;
+    border: 2px solid;
+    padding: 10px 30px;
+}
+
+.btn:hover,
+.btn:active {
+    color: darkgray;
+}
+
+/* NAVIGATION */
 .main-nav {
     float: right;
     list-style: none;
     margin-top: 20px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .main-nav li {
     display: inline-block;
-    text-decoration: none;
+    margin-left: 20px;
 }
+
+.main-nav li a:link, 
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+}
+
 
