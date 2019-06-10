@@ -8,7 +8,7 @@
 html,
 body {
     background-color: #ffffff;
-    color: #ffffff;
+    color: #979797;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -24,6 +24,7 @@ header {
     background-position: center;
     height: 100vh;
     background-attachment: fixed;
+    color: #ffffff;
 }
 
 .appointment-text-box h1 {
@@ -42,16 +43,16 @@ header {
     margin-top: 15px;
     font-weight: 300;
     text-decoration: none;
-    background-color: grey;
+    background-color: #808080;
     border-radius: 1200px;
-    color: white;
+    color: #ffffff;
     border: 2px solid;
     padding: 10px 30px;
 }
 
 .btn:hover,
 .btn:active {
-    color: darkgray;
+    color: #a9a9a9;
 }
 
 /* NAVIGATION */
@@ -77,4 +78,32 @@ header {
     border-bottom: 2px solid transparent;
 }
 
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid darkgray;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.icon-big {
+    font-size: 300%;
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 1140px;
+    color: #000000;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #000000;
+    font-weight: lighter;
+    height: 100vh;
+}
 

@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+}
+
+li  {
+    text-align: right;
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 10px;
+    font-size: 20px;
+    color: darkgrey;
+}
+
+li :hover, :active {
+    color: black;
+}
+
+li :link,
+:visited {
+    color: darkgrey;
+    border-bottom: 2px solid black;
+    text-decoration: none;
+}
